@@ -94,4 +94,8 @@ public class AuthenticationPageEvents {
 	public void clickSignInBtn() {
 		ElementFetch.getWebElement("XPATH", AuthenticationPageObjects.signInBtn_xpath).click();
 	}
+
+	public void dummyMethod() {
+		//This is dummy method added to check git local branching concepts
+	}
 }
