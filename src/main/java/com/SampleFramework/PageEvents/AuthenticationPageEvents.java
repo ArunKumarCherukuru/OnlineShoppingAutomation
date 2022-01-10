@@ -71,7 +71,7 @@ public class AuthenticationPageEvents {
 
 	public void enterMobileNumber(int number) {
 		ElementFetch.getWebElement("ID", AuthenticationPageObjects.mobileNumber_id).sendKeys(Integer.toString(number));
-		System.out.println("Just testing the SCM Poll method");
+		
 	}
 
 	public void clickRegisterBtn() {
