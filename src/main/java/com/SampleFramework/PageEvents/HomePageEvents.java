@@ -10,7 +10,6 @@ public class HomePageEvents {
 			ElementFetch.getWebElement("XPATH", HomePageObjects.signIn_xpath).click();
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("Checking WebHooks");
 		}
 	}
 }
